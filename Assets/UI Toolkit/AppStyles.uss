@@ -1,0 +1,73 @@
+.w-80 {
+    width: 80%;
+    min-width: 80%;
+}
+
+.menuButton {
+    -unity-text-align: middle-left;
+    color: rgb(255, 255, 255);
+    background-color: rgba(10, 14, 39, 0.6);
+    border-radius: 25px;
+    border-color: rgb(82, 147, 182);
+    border-width: 4px;
+    margin: 15px 0;
+    padding: 40px;
+    flex-direction: row;
+    transition-duration: 0.2s;
+}
+
+.menuButton:hover {
+    transition-duration: 0.2s;
+    scale: 1.1 1.1;
+    background-color: rgba(10, 14, 39, 0.2);
+}
+
+.menuButtonText {
+    -unity-font-definition: resource('Inter/Inter_28pt-Bold');
+    -unity-text-align: middle-left;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+.iconButton {
+    -unity-text-align: middle-center;
+    -unity-font-definition: resource('Font Awesome 6 Free-Solid-900');
+    border-radius: 20%;
+    border-color: rgb(146, 210, 238);
+    border-width: 4px;
+    margin-right: 25px;
+    padding: 5px;
+    font-size: 40px;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+}
+
+#showLabelToggle > VisualElement > #unity-checkmark {
+    width: 45px;
+    height: 45px;
+    margin-left: 25px;
+}
+
+#showLabelToggle {
+    -unity-font-style: bold;
+    -unity-font-definition: resource('Inter/Inter_28pt-Bold');
+    font-size: 55px;
+    -unity-text-outline-width: 1px;
+    -unity-text-outline-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 45px;
+    bottom: 45px;
+}
+
+.badge {
+    -unity-text-align: middle-center;
+    -unity-font-style: bold;
+    -unity-font-definition: resource('Inter/Inter_28pt-Bold');
+    font-size: 35px;
+    background-color: rgb(52, 108, 117);
+    color: rgb(78, 204, 195);
+    border-radius: 60px;
+    padding: 35px;
+}

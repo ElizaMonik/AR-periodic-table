@@ -1,0 +1,835 @@
+[
+  {
+    "symbol": "H",
+    "name": "Hidrógeno",
+    "mass": 1.008,
+    "number": 1,
+    "color": "#FF6B6B"
+  },
+  {
+    "symbol": "He",
+    "name": "Helio",
+    "mass": 4.0026022,
+    "number": 2,
+    "color": "#C39BD3"
+  },
+  {
+    "symbol": "Li",
+    "name": "Litio",
+    "mass": 6.94,
+    "number": 3,
+    "color": "#FFD93D"
+  },
+  {
+    "symbol": "Be",
+    "name": "Berilio",
+    "mass": 9.01218315,
+    "number": 4,
+    "color": "#A9DFBF"
+  },
+  {
+    "symbol": "B",
+    "name": "Boro",
+    "mass": 10.81,
+    "number": 5,
+    "color": "#F1948A"
+  },
+  {
+    "symbol": "C",
+    "name": "Carbono",
+    "mass": 12.011,
+    "number": 6,
+    "color": "#FF6B6B"
+  },
+  {
+    "symbol": "N",
+    "name": "Nitrógeno",
+    "mass": 14.007,
+    "number": 7,
+    "color": "#FF6B6B"
+  },
+  {
+    "symbol": "O",
+    "name": "Oxígeno",
+    "mass": 15.999,
+    "number": 8,
+    "color": "#FF6B6B"
+  },
+  {
+    "symbol": "F",
+    "name": "Flúor",
+    "mass": 18.9984031636,
+    "number": 9,
+    "color": "#85C1E9"
+  },
+  {
+    "symbol": "Ne",
+    "name": "Neón",
+    "mass": 20.17976,
+    "number": 10,
+    "color": "#C39BD3"
+  },
+  {
+    "symbol": "Na",
+    "name": "Sodio",
+    "mass": 22.989769282,
+    "number": 11,
+    "color": "#FFD93D"
+  },
+  {
+    "symbol": "Mg",
+    "name": "Magnesio",
+    "mass": 24.305,
+    "number": 12,
+    "color": "#A9DFBF"
+  },
+  {
+    "symbol": "Al",
+    "name": "Aluminio",
+    "mass": 26.98153857,
+    "number": 13,
+    "color": "#AED6F1"
+  },
+  {
+    "symbol": "Si",
+    "name": "Silicio",
+    "mass": 28.085,
+    "number": 14,
+    "color": "#F1948A"
+  },
+  {
+    "symbol": "P",
+    "name": "Fósforo",
+    "mass": 30.9737619985,
+    "number": 15,
+    "color": "#FF6B6B"
+  },
+  {
+    "symbol": "S",
+    "name": "Azufre",
+    "mass": 32.06,
+    "number": 16,
+    "color": "#FF6B6B"
+  },
+  {
+    "symbol": "Cl",
+    "name": "Cloro",
+    "mass": 35.45,
+    "number": 17,
+    "color": "#85C1E9"
+  },
+  {
+    "symbol": "Ar",
+    "name": "Argón",
+    "mass": 39.9481,
+    "number": 18,
+    "color": "#C39BD3"
+  },
+  {
+    "symbol": "K",
+    "name": "Potasio",
+    "mass": 39.09831,
+    "number": 19,
+    "color": "#FFD93D"
+  },
+  {
+    "symbol": "Ca",
+    "name": "Calcio",
+    "mass": 40.0784,
+    "number": 20,
+    "color": "#A9DFBF"
+  },
+  {
+    "symbol": "Sc",
+    "name": "Escandio",
+    "mass": 44.9559085,
+    "number": 21,
+    "color": "#F8C471"
+  },
+  {
+    "symbol": "Ti",
+    "name": "Titanio",
+    "mass": 47.8671,
+    "number": 22,
+    "color": "#F8C471"
+  },
+  {
+    "symbol": "V",
+    "name": "Vanadio",
+    "mass": 50.94151,
+    "number": 23,
+    "color": "#F8C471"
+  },
+  {
+    "symbol": "Cr",
+    "name": "Cromo",
+    "mass": 51.99616,
+    "number": 24,
+    "color": "#F8C471"
+  },
+  {
+    "symbol": "Mn",
+    "name": "Manganeso",
+    "mass": 54.9380443,
+    "number": 25,
+    "color": "#F8C471"
+  },
+  {
+    "symbol": "Fe",
+    "name": "Hierro",
+    "mass": 55.8452,
+    "number": 26,
+    "color": "#F8C471"
+  },
+  {
+    "symbol": "Co",
+    "name": "Cobalto",
+    "mass": 58.9331944,
+    "number": 27,
+    "color": "#F8C471"
+  },
+  {
+    "symbol": "Ni",
+    "name": "Níquel",
+    "mass": 58.69344,
+    "number": 28,
+    "color": "#F8C471"
+  },
+  {
+    "symbol": "Cu",
+    "name": "Cobre",
+    "mass": 63.5463,
+    "number": 29,
+    "color": "#F8C471"
+  },
+  {
+    "symbol": "Zn",
+    "name": "Zinc",
+    "mass": 65.382,
+    "number": 30,
+    "color": "#F8C471"
+  },
+  {
+    "symbol": "Ga",
+    "name": "Galio",
+    "mass": 69.7231,
+    "number": 31,
+    "color": "#AED6F1"
+  },
+  {
+    "symbol": "Ge",
+    "name": "Germanio",
+    "mass": 72.6308,
+    "number": 32,
+    "color": "#F1948A"
+  },
+  {
+    "symbol": "As",
+    "name": "Arsénico",
+    "mass": 74.9215956,
+    "number": 33,
+    "color": "#F1948A"
+  },
+  {
+    "symbol": "Se",
+    "name": "Selenio",
+    "mass": 78.9718,
+    "number": 34,
+    "color": "#FF6B6B"
+  },
+  {
+    "symbol": "Br",
+    "name": "Bromo",
+    "mass": 79.904,
+    "number": 35,
+    "color": "#85C1E9"
+  },
+  {
+    "symbol": "Kr",
+    "name": "Kriptón",
+    "mass": 83.7982,
+    "number": 36,
+    "color": "#C39BD3"
+  },
+  {
+    "symbol": "Rb",
+    "name": "Rubidio",
+    "mass": 85.46783,
+    "number": 37,
+    "color": "#FFD93D"
+  },
+  {
+    "symbol": "Sr",
+    "name": "Estroncio",
+    "mass": 87.621,
+    "number": 38,
+    "color": "#A9DFBF"
+  },
+  {
+    "symbol": "Y",
+    "name": "Itrio",
+    "mass": 88.905842,
+    "number": 39,
+    "color": "#F8C471"
+  },
+  {
+    "symbol": "Zr",
+    "name": "Circonio",
+    "mass": 91.2242,
+    "number": 40,
+    "color": "#F8C471"
+  },
+  {
+    "symbol": "Nb",
+    "name": "Niobio",
+    "mass": 92.906372,
+    "number": 41,
+    "color": "#F8C471"
+  },
+  {
+    "symbol": "Mo",
+    "name": "Molibdeno",
+    "mass": 95.951,
+    "number": 42,
+    "color": "#F8C471"
+  },
+  {
+    "symbol": "Tc",
+    "name": "Tecnecio",
+    "mass": 98.0,
+    "number": 43,
+    "color": "#F8C471"
+  },
+  {
+    "symbol": "Ru",
+    "name": "Rutenio",
+    "mass": 101.072,
+    "number": 44,
+    "color": "#F8C471"
+  },
+  {
+    "symbol": "Rh",
+    "name": "Rodio",
+    "mass": 102.905502,
+    "number": 45,
+    "color": "#F8C471"
+  },
+  {
+    "symbol": "Pd",
+    "name": "Paladio",
+    "mass": 106.421,
+    "number": 46,
+    "color": "#F8C471"
+  },
+  {
+    "symbol": "Ag",
+    "name": "Plata",
+    "mass": 107.86822,
+    "number": 47,
+    "color": "#F8C471"
+  },
+  {
+    "symbol": "Cd",
+    "name": "Cadmio",
+    "mass": 112.4144,
+    "number": 48,
+    "color": "#F8C471"
+  },
+  {
+    "symbol": "In",
+    "name": "Indio",
+    "mass": 114.8181,
+    "number": 49,
+    "color": "#AED6F1"
+  },
+  {
+    "symbol": "Sn",
+    "name": "Estaño",
+    "mass": 118.7107,
+    "number": 50,
+    "color": "#AED6F1"
+  },
+  {
+    "symbol": "Sb",
+    "name": "Antimonio",
+    "mass": 121.7601,
+    "number": 51,
+    "color": "#F1948A"
+  },
+  {
+    "symbol": "Te",
+    "name": "Telurio",
+    "mass": 127.603,
+    "number": 52,
+    "color": "#F1948A"
+  },
+  {
+    "symbol": "I",
+    "name": "Yodo",
+    "mass": 126.904473,
+    "number": 53,
+    "color": "#85C1E9"
+  },
+  {
+    "symbol": "Xe",
+    "name": "Xenón",
+    "mass": 131.2936,
+    "number": 54,
+    "color": "#C39BD3"
+  },
+  {
+    "symbol": "Cs",
+    "name": "Cesio",
+    "mass": 132.905451966,
+    "number": 55,
+    "color": "#FFD93D"
+  },
+  {
+    "symbol": "Ba",
+    "name": "Bario",
+    "mass": 137.3277,
+    "number": 56,
+    "color": "#A9DFBF"
+  },
+  {
+    "symbol": "La",
+    "name": "Lantano",
+    "mass": 138.905477,
+    "number": 57,
+    "color": "#FADBD8"
+  },
+  {
+    "symbol": "Ce",
+    "name": "Cerio",
+    "mass": 140.1161,
+    "number": 58,
+    "color": "#FADBD8"
+  },
+  {
+    "symbol": "Pr",
+    "name": "Praseodimio",
+    "mass": 140.907662,
+    "number": 59,
+    "color": "#FADBD8"
+  },
+  {
+    "symbol": "Nd",
+    "name": "Neodimio",
+    "mass": 144.2423,
+    "number": 60,
+    "color": "#FADBD8"
+  },
+  {
+    "symbol": "Pm",
+    "name": "Prometio",
+    "mass": 145.0,
+    "number": 61,
+    "color": "#FADBD8"
+  },
+  {
+    "symbol": "Sm",
+    "name": "Samario",
+    "mass": 150.362,
+    "number": 62,
+    "color": "#FADBD8"
+  },
+  {
+    "symbol": "Eu",
+    "name": "Europio",
+    "mass": 151.9641,
+    "number": 63,
+    "color": "#FADBD8"
+  },
+  {
+    "symbol": "Gd",
+    "name": "Gadolinio",
+    "mass": 157.253,
+    "number": 64,
+    "color": "#FADBD8"
+  },
+  {
+    "symbol": "Tb",
+    "name": "Terbio",
+    "mass": 158.925352,
+    "number": 65,
+    "color": "#FADBD8"
+  },
+  {
+    "symbol": "Dy",
+    "name": "Disprosio",
+    "mass": 162.5001,
+    "number": 66,
+    "color": "#FADBD8"
+  },
+  {
+    "symbol": "Ho",
+    "name": "Holmio",
+    "mass": 164.930332,
+    "number": 67,
+    "color": "#FADBD8"
+  },
+  {
+    "symbol": "Er",
+    "name": "Erbio",
+    "mass": 167.2593,
+    "number": 68,
+    "color": "#FADBD8"
+  },
+  {
+    "symbol": "Tm",
+    "name": "Tulio",
+    "mass": 168.934222,
+    "number": 69,
+    "color": "#FADBD8"
+  },
+  {
+    "symbol": "Yb",
+    "name": "Iterbio",
+    "mass": 173.0451,
+    "number": 70,
+    "color": "#FADBD8"
+  },
+  {
+    "symbol": "Lu",
+    "name": "Lutecio",
+    "mass": 174.96681,
+    "number": 71,
+    "color": "#FADBD8"
+  },
+  {
+    "symbol": "Hf",
+    "name": "Hafnio",
+    "mass": 178.492,
+    "number": 72,
+    "color": "#F8C471"
+  },
+  {
+    "symbol": "Ta",
+    "name": "Tántalo",
+    "mass": 180.947882,
+    "number": 73,
+    "color": "#F8C471"
+  },
+  {
+    "symbol": "W",
+    "name": "Wolframio",
+    "mass": 183.841,
+    "number": 74,
+    "color": "#F8C471"
+  },
+  {
+    "symbol": "Re",
+    "name": "Renio",
+    "mass": 186.2071,
+    "number": 75,
+    "color": "#F8C471"
+  },
+  {
+    "symbol": "Os",
+    "name": "Osmio",
+    "mass": 190.233,
+    "number": 76,
+    "color": "#F8C471"
+  },
+  {
+    "symbol": "Ir",
+    "name": "Iridio",
+    "mass": 192.2173,
+    "number": 77,
+    "color": "#F8C471"
+  },
+  {
+    "symbol": "Pt",
+    "name": "Platino",
+    "mass": 195.0849,
+    "number": 78,
+    "color": "#F8C471"
+  },
+  {
+    "symbol": "Au",
+    "name": "Oro",
+    "mass": 196.9665695,
+    "number": 79,
+    "color": "#F8C471"
+  },
+  {
+    "symbol": "Hg",
+    "name": "Mercurio",
+    "mass": 200.5923,
+    "number": 80,
+    "color": "#F8C471"
+  },
+  {
+    "symbol": "Tl",
+    "name": "Talio",
+    "mass": 204.38,
+    "number": 81,
+    "color": "#AED6F1"
+  },
+  {
+    "symbol": "Pb",
+    "name": "Plomo",
+    "mass": 207.21,
+    "number": 82,
+    "color": "#AED6F1"
+  },
+  {
+    "symbol": "Bi",
+    "name": "Bismuto",
+    "mass": 208.980401,
+    "number": 83,
+    "color": "#AED6F1"
+  },
+  {
+    "symbol": "Po",
+    "name": "Polonio",
+    "mass": 209.0,
+    "number": 84,
+    "color": "#F1948A"
+  },
+  {
+    "symbol": "At",
+    "name": "Ástato",
+    "mass": 210.0,
+    "number": 85,
+    "color": "#85C1E9"
+  },
+  {
+    "symbol": "Rn",
+    "name": "Radón",
+    "mass": 222.0,
+    "number": 86,
+    "color": "#C39BD3"
+  },
+  {
+    "symbol": "Fr",
+    "name": "Francio",
+    "mass": 223.0,
+    "number": 87,
+    "color": "#FFD93D"
+  },
+  {
+    "symbol": "Ra",
+    "name": "Radio",
+    "mass": 226.0,
+    "number": 88,
+    "color": "#A9DFBF"
+  },
+  {
+    "symbol": "Ac",
+    "name": "Actinio",
+    "mass": 227.0,
+    "number": 89,
+    "color": "#E8DAEF"
+  },
+  {
+    "symbol": "Th",
+    "name": "Torio",
+    "mass": 232.03774,
+    "number": 90,
+    "color": "#E8DAEF"
+  },
+  {
+    "symbol": "Pa",
+    "name": "Protactinio",
+    "mass": 231.035882,
+    "number": 91,
+    "color": "#E8DAEF"
+  },
+  {
+    "symbol": "U",
+    "name": "Uranio",
+    "mass": 238.028913,
+    "number": 92,
+    "color": "#E8DAEF"
+  },
+  {
+    "symbol": "Np",
+    "name": "Neptunio",
+    "mass": 237.0,
+    "number": 93,
+    "color": "#E8DAEF"
+  },
+  {
+    "symbol": "Pu",
+    "name": "Plutonio",
+    "mass": 244.0,
+    "number": 94,
+    "color": "#E8DAEF"
+  },
+  {
+    "symbol": "Am",
+    "name": "Americio",
+    "mass": 243.0,
+    "number": 95,
+    "color": "#E8DAEF"
+  },
+  {
+    "symbol": "Cm",
+    "name": "Curio",
+    "mass": 247.0,
+    "number": 96,
+    "color": "#E8DAEF"
+  },
+  {
+    "symbol": "Bk",
+    "name": "Berkelio",
+    "mass": 247.0,
+    "number": 97,
+    "color": "#E8DAEF"
+  },
+  {
+    "symbol": "Cf",
+    "name": "Californio",
+    "mass": 251.0,
+    "number": 98,
+    "color": "#E8DAEF"
+  },
+  {
+    "symbol": "Es",
+    "name": "Einstenio",
+    "mass": 252.0,
+    "number": 99,
+    "color": "#E8DAEF"
+  },
+  {
+    "symbol": "Fm",
+    "name": "Fermio",
+    "mass": 257.0,
+    "number": 100,
+    "color": "#E8DAEF"
+  },
+  {
+    "symbol": "Md",
+    "name": "Mendelevio",
+    "mass": 258.0,
+    "number": 101,
+    "color": "#E8DAEF"
+  },
+  {
+    "symbol": "No",
+    "name": "Nobelio",
+    "mass": 259.0,
+    "number": 102,
+    "color": "#E8DAEF"
+  },
+  {
+    "symbol": "Lr",
+    "name": "Lawrencio",
+    "mass": 266.0,
+    "number": 103,
+    "color": "#E8DAEF"
+  },
+  {
+    "symbol": "Rf",
+    "name": "Rutherfordio",
+    "mass": 267.0,
+    "number": 104,
+    "color": "#F8C471"
+  },
+  {
+    "symbol": "Db",
+    "name": "Dubnio",
+    "mass": 268.0,
+    "number": 105,
+    "color": "#F8C471"
+  },
+  {
+    "symbol": "Sg",
+    "name": "Seaborgio",
+    "mass": 269.0,
+    "number": 106,
+    "color": "#F8C471"
+  },
+  {
+    "symbol": "Bh",
+    "name": "Bohrio",
+    "mass": 270.0,
+    "number": 107,
+    "color": "#F8C471"
+  },
+  {
+    "symbol": "Hs",
+    "name": "Hassio",
+    "mass": 269.0,
+    "number": 108,
+    "color": "#F8C471"
+  },
+  {
+    "symbol": "Mt",
+    "name": "Meitnerio",
+    "mass": 278.0,
+    "number": 109,
+    "color": "#F8C471"
+  },
+  {
+    "symbol": "Ds",
+    "name": "Darmstadtio",
+    "mass": 281.0,
+    "number": 110,
+    "color": "#F8C471"
+  },
+  {
+    "symbol": "Rg",
+    "name": "Roentgenio",
+    "mass": 282.0,
+    "number": 111,
+    "color": "#F8C471"
+  },
+  {
+    "symbol": "Cn",
+    "name": "Copernicio",
+    "mass": 285.0,
+    "number": 112,
+    "color": "#F8C471"
+  },
+  {
+    "symbol": "Nh",
+    "name": "Nihonio",
+    "mass": 286.0,
+    "number": 113,
+    "color": "#AED6F1"
+  },
+  {
+    "symbol": "Fl",
+    "name": "Flerovio",
+    "mass": 289.0,
+    "number": 114,
+    "color": "#AED6F1"
+  },
+  {
+    "symbol": "Mc",
+    "name": "Moscovio",
+    "mass": 289.0,
+    "number": 115,
+    "color": "#AED6F1"
+  },
+  {
+    "symbol": "Lv",
+    "name": "Livermorio",
+    "mass": 293.0,
+    "number": 116,
+    "color": "#AED6F1"
+  },
+  {
+    "symbol": "Ts",
+    "name": "Tenesino",
+    "mass": 294.0,
+    "number": 117,
+    "color": "#85C1E9"
+  },
+  {
+    "symbol": "Og",
+    "name": "Oganesón",
+    "mass": 294.0,
+    "number": 118,
+    "color": "#C39BD3"
+  },
+  {
+    "symbol": "Uue",
+    "name": "Ununenio",
+    "mass": 315.0,
+    "number": 119,
+    "color": "#FFD93D"
+  }
+]

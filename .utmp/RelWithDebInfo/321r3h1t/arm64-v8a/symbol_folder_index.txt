@@ -1,0 +1,1 @@
+C:\Users\Usuario\Desktop\Tesis\AR-PERIODIC-TABLE-V2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\321r3h1t\obj\arm64-v8a

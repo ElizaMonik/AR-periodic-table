@@ -1,0 +1,87 @@
+﻿#body {
+    background-image: resource("Background");
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 100px;
+}
+
+#content {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border-color: rgb(146, 210, 238);
+    border-width: 8px;
+    background-color: rgba(10, 14, 39, 0.7);
+}
+
+#logoEspe {
+    position: relative;
+    width: 100%;
+    background-image: resource("LogoEspe");
+    height: 10%;
+    -unity-background-scale-mode: scale-to-fit;
+    bottom: 3%;
+}
+
+#logoApp {
+    -unity-background-scale-mode: scale-to-fit;
+    background-image: resource("Logo");
+    width: 400px;
+    height: 400px;
+    -unity-background-image-tint-color: rgb(0, 22, 50);
+    background-color: rgb(132, 204, 233);
+    border-radius: 15%;
+}
+
+#appName {
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    margin-top: 40px;
+    font-size: 80px;
+    color: rgb(146, 210, 238);
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#appName:hover {
+    color: rgb(183, 214, 234);
+    transition-duration: 0.2s;
+}
+
+#appSubtitle {
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    font-size: 45px;
+    color: rgb(146, 210, 238);
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#appDescription {
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+#footer {
+    -unity-font-definition: resource('Inter/Inter_28pt-Bold');
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 35px;
+    width: 100%;
+    height: 100px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(146, 210, 238);
+    font-size: 35px;
+}

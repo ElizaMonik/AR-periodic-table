@@ -1,0 +1,19 @@
+# ninja log v5
+73	3567	7742138325069730	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	9a309e2a26dfec6b
+39	3587	7742138325089833	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	d5bd2e3dfe87df33
+102	4091	7742138330547527	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	251837ab5615b266
+13	3646	7742138325467357	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	4ae21006423bb743
+25	3786	7742138327389618	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	8a9c2afdf0818d63
+87	3650	7742138325951300	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	a2e565bb4ef62310
+54	4167	7742138331278966	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	632bd074158b4eb0
+1	4323	7742138332810901	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	b158c61956faffb2
+4323	4508	7742138334730401	C:/Users/playe/OneDrive/Documentos/Unity Projects/AR-PERIODIC-TABLE-V2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/65394v69/obj/arm64-v8a/libgame.so	2948e314b73f79e0
+31	4981	7743193947088324	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	9a309e2a26dfec6b
+99	5016	7743193947088324	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	d5bd2e3dfe87df33
+55	5025	7743193947231736	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	4ae21006423bb743
+84	5039	7743193947851858	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	a2e565bb4ef62310
+42	5144	7743193949102879	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	8a9c2afdf0818d63
+127	5603	7743193953822808	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	632bd074158b4eb0
+69	5767	7743193955441202	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	251837ab5615b266
+20	5807	7743193955740701	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	b158c61956faffb2
+5807	6077	7743193958603373	C:/Users/playe/OneDrive/Documentos/Unity Projects/AR-PERIODIC-TABLE-V2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/65394v69/obj/arm64-v8a/libgame.so	2948e314b73f79e0

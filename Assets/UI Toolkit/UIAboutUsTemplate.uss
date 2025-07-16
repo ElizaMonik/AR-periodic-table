@@ -1,0 +1,59 @@
+﻿#body {
+    background-image: resource("Background");
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+}
+
+#content {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border-color: rgb(146, 210, 238);
+    border-width: 6px;
+    background-color: rgba(10, 14, 39, 0.7);
+    -unity-font-definition: resource('Inter/Inter_28pt-Bold');
+    color: rgb(255, 255, 255);
+    padding: 50px;
+}
+
+#applogo {
+    -unity-background-scale-mode: scale-to-fit;
+    height: 45%;
+    background-image: resource("Logo");
+    width: 80%;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+}
+
+#aboutUsTitle {
+    -unity-font-style: bold;
+    font-size: 80px;
+    width: 100%;
+    margin-bottom: 30px;
+    color: rgb(146, 210, 238);
+}
+
+#aboutUs {
+    font-size: 45px;
+    white-space: normal;
+    -unity-text-align: upper-center;
+    -unity-paragraph-spacing: 100px;
+    letter-spacing: 5px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+#technologies {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+#technologies > .badge {
+    margin: 15px 30px;
+}

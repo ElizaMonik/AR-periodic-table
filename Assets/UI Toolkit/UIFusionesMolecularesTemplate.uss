@@ -1,0 +1,103 @@
+﻿#body {
+    background-image: resource("Background");
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+#container {
+    width: 100%;
+    background-color: rgba(15, 23, 42, 0.95);
+    border-radius: 30px;
+    padding: 40px;
+    border-color: rgba(146, 210, 238, 0.3);
+    border-width: 3px;
+}
+
+#header {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+#title {
+    font-size: 65px;
+    color: rgb(135, 206, 235);
+    -unity-font-definition: resource('Inter/Inter_28pt-Bold');
+    -unity-text-align: middle-center;
+    margin-bottom: 16px;
+}
+
+#subtitle {
+    font-size: 40px;
+    color: rgba(248, 250, 252, 0.8);
+    -unity-font-definition: resource('Inter/Inter_28pt-Bold');
+    -unity-text-align: middle-center;
+}
+
+#moleculesContainer {
+    width: 100%;
+    flex-grow: 1;
+}
+
+.moleculeCard {
+    width: 100%;
+    background-color: rgba(15, 23, 42, 0.8);
+    border-color: rgba(146, 210, 238, 0.3);
+    border-width: 3px;
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 20px;
+    transition-duration: 0.2s;
+}
+
+.moleculeCard:hover {
+    transition-duration: 0.2s;
+    scale: 1.05 1.05;
+    border-color: rgba(146, 210, 238, 0.5);
+}
+
+.moleculeHeader {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.moleculeFormula {
+    background-color: rgb(64, 224, 208);
+    color: rgb(10, 14, 39);
+    -unity-font-definition: resource('Inter/Inter_28pt-Bold');
+    font-size: 45px;
+    padding: 12px 20px;
+    border-radius: 12px;
+    margin-right: 20px;
+    min-width: 80px;
+    -unity-text-align: middle-center;
+}
+
+.moleculeName {
+    color: rgb(255, 255, 255);
+    -unity-font-definition: resource('Inter/Inter_28pt-Bold');
+    font-size: 45px;
+    flex-grow: 1;
+    white-space: normal;
+}
+
+.moleculeElements {
+    color: rgb(64, 224, 208);
+    font-size: 40px;
+    -unity-font-definition: resource('Inter/Inter_28pt-Bold');
+    margin-bottom: 12px;
+}
+
+.moleculeDescription {
+    color: rgba(248, 250, 252, 0.8);
+    font-size: 40px;
+    -unity-font-definition: resource('Inter/Inter_28pt-Bold');
+    white-space: normal;
+}

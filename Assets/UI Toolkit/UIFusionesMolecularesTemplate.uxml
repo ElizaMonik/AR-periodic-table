@@ -1,0 +1,26 @@
+<ui:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements"
+    xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
+    editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/AppStyles.uss" />
+    <Style src="project://database/Assets/UI%20Toolkit/UIFusionesMolecularesTemplate.uss" />
+    <ui:VisualElement name="body">
+
+        <ui:VisualElement name="container">
+
+            <ui:VisualElement name="header">
+                <ui:Label text="⚛ Fusiones Moleculares" name="title" />
+                <ui:Label text="Elementos que se combinan para formar moléculas" name="subtitle" />
+            </ui:VisualElement>
+
+            <ui:ScrollView name="moleculesContainer">
+            </ui:ScrollView>
+
+        </ui:VisualElement>
+
+        <ui:Button name="menuButton" class="menuButton w-80">
+            <ui:Label text="📋" class="iconButton" />
+            <ui:Label text="Regresar al Menú" class="menuButtonText" />
+        </ui:Button>
+    </ui:VisualElement>
+</ui:UXML>

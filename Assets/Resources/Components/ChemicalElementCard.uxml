@@ -1,0 +1,14 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Element" style="flex-grow: 1; width: 200px; height: 240px; border-left-color: rgb(42, 65, 101); border-right-color: rgb(76, 95, 123); border-top-color: rgb(42, 65, 101); border-bottom-color: rgb(76, 94, 123); border-top-width: 5px; border-right-width: 5px; border-bottom-width: 5px; border-left-width: 5px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; background-color: rgb(41, 75, 128); color: rgb(255, 255, 255);">
+        <ui:VisualElement name="1" style="height: 25%; flex-direction: row; justify-content: space-between; align-items: flex-start;">
+            <ui:Label text="N" name="ElementNumber" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 3px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; font-size: 18px;" />
+            <ui:Label text="0000" name="ElementMass" style="font-size: 15px; margin-top: 0; margin-right: 5px; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="2" style="height: 50%;">
+            <ui:Label text="Xx" name="ElementSymbol" style="-unity-font-style: bold; -unity-text-align: middle-center; height: 100%; font-size: 45px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; color: rgb(255, 255, 255);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="3" style="height: 25%;">
+            <ui:Label text="Element" name="ElementName" style="color: rgb(255, 255, 255); -unity-text-align: middle-center; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; height: 100%; font-size: 20px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

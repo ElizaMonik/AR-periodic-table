@@ -1,0 +1,50 @@
+<ui:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements"
+    xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
+    editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/AppStyles.uss" />
+    <Style src="project://database/Assets/UI%20Toolkit/UIAboutUsTemplate.uss" />
+    <ui:VisualElement name="body">
+
+        <ui:VisualElement
+            name="espeLogo"
+            style="position: relative; width: 100%; background-image: resource(&apos;LogoEspe&apos;); height: 10%; -unity-background-scale-mode: scale-to-fit; bottom: 3%;" />
+        <ui:VisualElement
+            name="options"
+            style="height: 75%; width: 90%; align-items: center;">
+
+            <ui:Label
+                text="¿Quiénes Somos?"
+                name="aboutUsTitle" />
+
+            <ui:VisualElement
+                name="content">
+                <ui:Label
+                    text="Somos un equipo de estudiantes de Tecnologías de la Información comprometidos con la inovación educatova.&#10;Desarrollamos un sistema de realidad aumentada que permite visualizar los elementos de la tabla periodica y su combinación en moleculas simples usando cubos impresos en 3D como marcadores interactivos. &#10;Nuestra aplicación intefra modelos 3D alojados en la nube mediante un API, facilitando el aprendizaje dinámico y visual de la química &#10;"
+                    name="aboutUs" />
+            </ui:VisualElement>
+
+            <ui:VisualElement style="margin-top: 20px; align-items: center;">
+                <ui:VisualElement name="technologies">
+                    <ui:Label
+                        class="badge"
+                        text="Unity" />
+                    <ui:Label
+                        class="badge"
+                        text="Vuforia" />
+                    <ui:Label
+                        class="badge"
+                        text="Realidad Aumentada" />
+                    <ui:Label
+                        class="badge"
+                        text="Modelos 3D" />
+                </ui:VisualElement>
+
+                <ui:Button name="menuButton" class="menuButton w-80">
+                    <ui:Label text="📋" class="iconButton" />
+                    <ui:Label text="Regresar al Menú" class="menuButtonText" />
+                </ui:Button>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

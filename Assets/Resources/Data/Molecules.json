@@ -1,0 +1,129 @@
+[
+  {
+    "name": "CO",
+    "elements": [
+      "C",
+      "O"
+    ],
+    "comunName": "Monóxido de Carbono",
+    "description": "Gas tóxico que se forma en combustión incompleta. No tiene color ni olor. "
+  },
+  {
+    "name": "HBr",
+    "elements": [
+      "H",
+      "Br"
+    ],
+    "comunName": "Ácido Bromhídrico",
+    "description": "Ácido fuerte que se disuelve en agua. Se usa en química orgánica. "
+  },
+  {
+    "name": "HCl",
+    "elements": [
+      "H",
+      "Cl"
+    ],
+    "comunName": "Ácido Clorhídrico",
+    "description": "Ácido presente en el estómago humano. Se usa en limpieza industrial. "
+  },
+  {
+    "name": "HF",
+    "elements": [
+      "H",
+      "F"
+    ],
+    "comunName": "Ácido Fluorhídrico",
+    "description": "Ácido muy corrosivo, disuelve vidrio. Se usa en la industria química. "
+  },
+  {
+    "name": "HI",
+    "elements": [
+      "H",
+      "I"
+    ],
+    "comunName": "Ácido Yodhídrico",
+    "description": "Ácido fuerte. Se usa en síntesis de compuestos orgánicos."
+  },
+  {
+    "name": "KBr",
+    "elements": [
+      "K",
+      "Br"
+    ],
+    "comunName": "Bromuro de Potasio",
+    "description": "Sal usada en medicina y fotografía. "
+  },
+  {
+    "name": "LiF",
+    "elements": [
+      "Li",
+      "F"
+    ],
+    "comunName": "Fluoruro de Litio",
+    "description": "Usado en cerámica, óptica y baterías."
+  },
+  {
+    "name": "LiH",
+    "elements": [
+      "Li",
+      "H"
+    ],
+    "comunName": "Hidruro de Litio",
+    "description": "Compuesto usado como fuente de hidrógeno. "
+  },
+  {
+    "name": "LiI",
+    "elements": [
+      "Li",
+      "I"
+    ],
+    "comunName": "Yoduro de Litio",
+    "description": "Usado en aplicaciones médicas y ópticas. "
+  },
+  {
+    "name": "NaCl",
+    "elements": [
+      "Na",
+      "Cl"
+    ],
+    "comunName": "Cloruro de Sodio",
+    "description": "Es la sal de mesa, esencial para la vida humana. "
+  },
+  {
+    "name": "NaH",
+    "elements": [
+      "Na",
+      "H"
+    ],
+    "comunName": "Hidruro de Sodio",
+    "description": "Compuesto muy reactivo, usado en síntesis química. "
+  },
+  {
+    "name": "NO",
+    "elements": [
+      "N",
+      "O"
+    ],
+    "comunName": "Óxido Nítrico",
+    "description": "Gas importante en la comunicación celular y en reacciones químicas. "
+  },
+  {
+    "name": "H2O",
+    "elements": [
+      "H",
+      "H",
+      "O"
+    ],
+    "comunName": "Agua",
+    "description": "Compuesto esencial para la vida. Forma líquida, sólida (hielo) y gaseosa (vapor)"
+  },
+  {
+    "name": "HO",
+    "elements": [
+      "H",
+      "O"
+    ],
+    "comunName": "Radical hidroxilo",
+    "description": "Radical hidroxilo altamente reactivo formado por un átomo de hidrógeno y uno de oxígeno."
+  }
+]

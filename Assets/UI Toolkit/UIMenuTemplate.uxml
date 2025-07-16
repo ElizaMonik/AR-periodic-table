@@ -1,0 +1,43 @@
+<ui:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ui="UnityEngine.UIElements"
+    xmlns:uie="UnityEditor.UIElements"
+    noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
+    editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/AppStyles.uss" />
+    <Style src="project://database/Assets/UI%20Toolkit/UIMenuTemplate.uss" />
+    <ui:VisualElement name="body">
+        <ui:VisualElement name="content">
+            <ui:VisualElement name="logoApp" />
+            <ui:Label name="appName" text="M &amp; L" />
+            <ui:Label name="appSubtitle" text="VISION" />
+            <ui:Label name="appDescription" text="Tabla Periódica con Realidad Aumentada" />
+            <ui:VisualElement name="options" style="align-items: center; width: 90%;">
+                <ui:Button name="periodicTableButton" class="menuButton w-80">
+                    <ui:Label text="⚛" class="iconButton" />
+                    <ui:Label text="Explorador Tabla Periódica" class="menuButtonText" />
+                </ui:Button>
+                <ui:Button name="startButton" class="menuButton w-80">
+                    <ui:Label text="📱" class="iconButton" />
+                    <ui:Label text="Iniciar" class="menuButtonText" />
+                </ui:Button>
+                <ui:Button name="fusionButton" class="menuButton w-80">
+                    <ui:Label text="⚙" class="iconButton" />
+                    <ui:Label text="Fusiones" class="menuButtonText" />
+                </ui:Button>
+                <ui:Button name="creditsButton" class="menuButton w-80">
+                    <ui:Label text="❗" class="iconButton" />
+                    <ui:Label text="Información" class="menuButtonText" />
+                </ui:Button>
+                <ui:Button name="exitButton" class="menuButton w-80">
+                    <ui:Label text="✖" class="iconButton" />
+                    <ui:Label text="Salir" class="menuButtonText" />
+                </ui:Button>
+            </ui:VisualElement>
+            <ui:VisualElement name="footer">
+                <ui:Label name="version" text="v1.0.0" />
+                <ui:Label name="copyright" text="Desarrollado por Mónica y Lesly" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
