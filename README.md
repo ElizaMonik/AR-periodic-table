@@ -1,7 +1,7 @@
 # 🧪 Sistema de Realidad Aumentada para Enseñar la Tabla Periódica
 
 Este repositorio contiene todo el proyecto para aprender química de forma **interactiva** usando **cubos 3D impresos** y **realidad aumentada (AR)**.  
-El sistema muestra **átomos y moléculas en 3D**, combinando **Unity**, **Vuforia**, **Blender** y una **API en la nube**.
+El sistema muestra **átomos y moléculas en 3D**, combinando **Unity**, **Vuforia** y una **API en la nube**.
 
 ---
 
