@@ -1,98 +1,88 @@
-# 🧪 Sistema de Realidad Aumentada para Enseñar la Tabla Periódica
+# 🧪 Sistema de Realidad Aumentada con Cubos 3D para Enseñar Química
 
-Este repositorio contiene todo el proyecto para aprender química de forma **interactiva** usando **cubos 3D impresos** y **realidad aumentada (AR)**.  
-El sistema muestra **átomos y moléculas en 3D**, combinando **Unity**, **Vuforia** y una **API en la nube**.
+Este proyecto propone una solución educativa innovadora: **enseñar la tabla periódica y la formación de moléculas usando cubos físicos impresos en 3D combinados con realidad aumentada (RA)**.  
+Diseñado para facilitar la comprensión de conceptos químicos abstractos, el sistema permite que los estudiantes interactúen con modelos 3D de átomos y moléculas en tiempo real, a través de una aplicación desarrollada en **Unity con Vuforia**, respaldada por una **API REST en FastAPI** y almacenamiento en la nube.
 
 ---
 
-## 🚀 ¿Qué hace este proyecto?
+## 🚀 ¿Por qué este proyecto es diferente?
 
-- Reconoce **cubos físicos con marcadores QR** usando la cámara del celular.
-- Muestra **modelos 3D de 118 elementos químicos**.
-- Permite **combinar átomos** para formar moléculas simples.
-- Descarga modelos 3D desde una **API FastAPI** alojada en **Google Cloud**, para que la app no pese tanto.
-- Incluye una **interfaz fácil de usar** con botones para explorar la tabla periódica, iniciar la cámara, ver información y más.
+A diferencia de otras aplicaciones educativas, este sistema integra el mundo físico y digital mediante:
+
+✅ **Cubos físicos impresos con marcadores en relieve** que representan elementos químicos.  
+✅ **Reconocimiento visual inteligente** a través de la cámara del dispositivo móvil.  
+✅ **Visualización en RA de modelos atómicos y moléculas animadas**.  
+✅ **Carga dinámica desde una API en la nube** para reducir el peso de la aplicación.  
+✅ **Interfaz intuitiva** que guía al usuario paso a paso.
+
+> 📌 *Una herramienta educativa pensada no solo para aprender, sino para asombrar.*
+
+---
+
+## 🔍 Características destacadas
+
+- Visualización de **los 118 elementos de la tabla periódica** con modelos 3D.  
+- Fusión interactiva de elementos para **crear moléculas simples** (como H₂O, CO₂, NH₃).  
+- Uso de **cubos 3D físicos con relieves únicos** como marcadores para RA.  
+- Compatible con dispositivos Android.  
+- Arquitectura flexible, escalable y basada en componentes.
+
+---
+
+## 🛠️ Herramientas y Tecnologías utilizadas
+
+| Tecnología      | Uso Principal                                           |
+|----------------|----------------------------------------------------------|
+| Unity          | Motor principal del sistema interactivo                  |
+| Vuforia        | Reconocimiento de marcadores en 3D (relieves físicos)    |
+| FastAPI        | API REST para servir modelos y metadatos                 |
+| Google Cloud   | Almacenamiento en la nube para modelos 3D `.glb`            |
+| ChimeraX       | Visualización científica de moléculas                    |
+| Ultimaker Cura | Preparación de impresión de cubos físicos                |
 
 ---
 
 ## 📁 Estructura del repositorio
 
-📦 /UnityProject/ → Proyecto completo en Unity (escenas, scripts)
-📦 /BlenderModels/ → Modelos 3D de átomos (.blend, .glb)
-📦 /FastAPI/ → Código de la API que sirve los modelos y metadatos
-📦 /Docs/ → Manuales, diagramas y capturas de pantalla
-📄 README.md → Este archivo
-
-yaml
+```text
+📦 UnityProject/     → Proyecto Unity con scripts, escenas y UI
+📦 Models/           → Modelos 3D de átomos (.glb)
+📦 FastAPI/          → Código fuente de la API REST
+📦 Tinkercard/       → Archivos STL de los cubos impresos
+📦 Docs/             → Manuales, guías y capturas
+📄 README.md         → Este archivo
+⚙️ Cómo iniciar el proyecto
+1️⃣ Clonar el repositorio
+bash
 Copiar
 Editar
-
----
-
-## 🛠️ Requisitos
-
-- **Unity** (versión 2021 o superior)
-- **Vuforia Engine**
-- **Python 3.9+** (para correr FastAPI)
-- **Google Cloud** (opcional para desplegar la API)
-- **Ultimaker Cura** (opcional para imprimir los cubos)
-
----
-
-## ⚙️ Cómo usarlo paso a paso
-
-1️⃣ **Clona este repositorio**
-
-```bash
 git clone https://github.com/tu-usuario/tu-repo.git
-2️⃣ Ejecuta la API
-
+2️⃣ Ejecutar la API REST
 bash
 Copiar
 Editar
 cd FastAPI
 uvicorn main:app --reload
-3️⃣ Abre el proyecto Unity
+3️⃣ Abrir Unity y cargar la escena principal
+Abrir /UnityProject/ con Unity Hub
 
-Abre /UnityProject/ con Unity Hub.
+Ejecutar MainScene.unity
 
-Busca la escena principal MainScene.unity.
+4️⃣ Probar en dispositivo Android
+Instalar el APK (ubicado en /Docs/ o generado desde Unity).
 
-4️⃣ Imprime tus cubos
+Apuntar la cámara hacia un cubo impreso.
 
-Los archivos STL están en /BlenderModels/.
+Visualizar el modelo atómico en RA.
 
-Puedes imprimirlos huecos para ahorrar material.
+Al combinar dos cubos compatibles, se genera una molécula animada.
 
-Cada cara tiene un marcador QR en relieve.
+🧊 Impresión de cubos físicos
+Los cubos fueron diseñados con relieves personalizados en cada cara, lo que permite a la cámara reconocerlos como marcadores únicos.
+La impresión se puede realizar en PLA con impresora 3D, recomendando una impreso de alta calidad, usando los archivos .stl ubicados en la carpeta /Tinkercard/.
 
-5️⃣ Prueba la aplicación
+💬 Conclusión
+Este proyecto representa un verdadero avance en la integración de tecnologías emergentes para la educación científica.
+La unión de RA + impresión 3D + modelado molecular ha resultado en una experiencia educativa inmersiva, atractiva y altamente eficaz.
 
-Enciende la cámara RA.
-
-Escanea un cubo físico.
-
-El modelo 3D se carga automáticamente desde la nube.
-
-Si escaneas 2 cubos compatibles, ¡aparece una molécula combinada!
-
-👀 Ejemplo visual
-📸 Así se ve el sistema en acción:
-
-
-🔗 Funciones clave
-Botón	Qué hace
-Explorar Tabla	Muestra todos los elementos de la tabla periódica.
-Iniciar RA	Activa la cámara para escanear cubos.
-Fusiones Moleculares	Abre lista de combinaciones posibles y activa la cámara.
-Información	Explica cómo funciona y para qué sirve la app.
-Salir	Cierra la aplicación.
-
-📚 Documentación extra
-Revisa la carpeta /Docs/ para encontrar:
-
-Manual de usuario 📖
-
-Guía de impresión 3D 🧊
-
-Cómo usar la API 🔗
+Un ingeniero que vea este sistema comprenderá de inmediato su valor pedagógico, su solidez técnica y su potencial de impacto en aulas reales.
