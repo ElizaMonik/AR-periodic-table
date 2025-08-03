@@ -1,0 +1,2 @@
+C:\Users\Usuario\Desktop\Tesis\AR-periodic-table\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Users\Usuario\Desktop\Tesis\AR-periodic-table\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt
