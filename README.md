@@ -41,7 +41,8 @@ A diferencia de otras aplicaciones educativas, este sistema integra el mundo fí
 | Ultimaker Cura | Preparación de impresión de cubos físicos                |
 
 ---
-<video src="Preview/Video.mp4" controls width="100%"></video>
+## 📱 Cómo funciona
+<img src="Preview/Video.gif" controls width="100%"></img>
 ## 📁 Estructura del repositorio
 
 ```text
